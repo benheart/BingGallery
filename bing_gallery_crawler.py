@@ -4,6 +4,8 @@ import re
 import requests
 import shutil
 
+# 由于Bing壁纸官方网址失效，此批量下载脚本无法使用，新下载脚本参见: bing_gallery_crawler_new.py
+
 data_url = 'http://www.bing.com/gallery/home/browsedata?z=0'
 # img_detail_base_url = 'http://www.bing.com/gallery/home/imagedetails/%s?z=0'
 regex = r'a\.browseData=(.+);}\)\(window, \'BingGallery\'\);'
